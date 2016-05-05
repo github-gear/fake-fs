@@ -1,7 +1,10 @@
 RSpec.describe "Game" do
   describe "#score" do
-    it "returns 0 for an all gutter game" do
+    it "goal!" do
       expect("A").to eq("A")
+    end
+    it "goal goal!" do
+      expect("AA").to eq("AA")
     end
   end
 end
